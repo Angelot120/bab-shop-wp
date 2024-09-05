@@ -1,0 +1,1081 @@
+# Translation of Themes - Context Blog in French (France)
+# This file is distributed under the same license as the Themes - Context Blog package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-11 14:31:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Context Blog\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Context blog WordPress theme is a free, personalized, and context-oriented theme. It starts by focusing on your persona, followed by other attractions. The other six attractions show your post in a different design. Your main blog post is one of them. The convincing feature is a selection of blog posts that you can use to highlight your post in different sections. Post selection is based on different contexts, such as the number of comments, date, category. The theme is completely configurable and accessible from the customizer's preview. Additionally, the theme is fully responsive and mobile-friendly, ensuring that your content looks great on any device.  Its HTML5 structure with sections and articles ensures optimal SEO performance. In summary, the Context blog WordPress theme is a customizer based, versatile, and SEO-friendly option for bloggers looking to enhance their online presence and improve their search engine rankings. Demo is here https://contextblog.postmagthemes.com"
+msgstr "Le thème WordPress Context Blog est un thème gratuit, personnalisé et axé sur le contexte. Il commence par se concentrer sur votre persona, suivi par d‘autres centres d‘intérêt. Les six autres centres d‘intérêt affichent votre article dans un design différent. Votre article de blog principal est l‘un d'entre eux. La fonctionnalité Convaincante est une sélection d‘articles de blog que vous pouvez utiliser pour mettre en valeur votre publication dans différentes sections. La sélection des publications est basée sur différents contextes, tels que le nombre de commentaires, la date, la catégorie. Le thème est complètement configurable et accessible depuis la prévisualisation de l‘outil de personnalisation. En outre, le thème est entièrement responsive et mobile-friendly, ce qui garantit que votre contenu s‘affiche parfaitement sur n‘importe quel appareil. Sa structure HTML5 avec des sections et des articles garantit des performances optimales en matière de référencement. En résumé, le thème WordPress Context Blog est une option basée sur l‘outil de personnalisation, polyvalent et SEO-friendly pour les blogueurs et blogeuses qui cherchent à améliorer leur présence en ligne et à améliorer leur classement sur les moteurs de recherche. La démo est ici https://contextblog.postmagthemes.com"
+
+#. Theme Name of the theme
+#: style.css footer.php:132 inc/customizer/document/document.php:47
+#, gp-priority: high
+msgid "Context Blog"
+msgstr "Context Blog"
+
+#: inc/customizer/global/common-social-section.php:69
+msgid "Example: https://facebook.com"
+msgstr "Exemple : https://facebook.com"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:150 template-parts/content-single.php:54
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:128 template-parts/content-single.php:82
+msgid "Author"
+msgstr "Auteur/autrice"
+
+#: template-parts/content-page.php:116 template-parts/content-single.php:39
+msgid "Pages :"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:43
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. Essayez en lançant une recherche."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères de recherche. Veuillez réessayer avec d’autres mots-clés."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt·e à publier votre premier article ? <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Rien n’a été trouvé"
+
+#: template-parts/content-core.php:151 template-parts/content-core.php:155
+msgid "Read out all"
+msgstr "Lire la suite"
+
+#: single.php:65
+msgid "Previous post"
+msgstr "Article précédent"
+
+#: single.php:64
+msgid "Next post"
+msgstr "Article suivant"
+
+#: main-body/gallery-slider-section.php:73 template-parts/content-core.php:131
+#: template-parts/content-single.php:24
+msgid "In"
+msgstr "Dans"
+
+#: inc/theme-info/class-about.php:592
+msgid "Upgrade to Pro"
+msgstr "Passer à la version Pro"
+
+#: inc/theme-info/class-about.php:558
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: inc/theme-info/class-about.php:554
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/theme-info/class-about.php:550
+msgid "Install"
+msgstr "Installer"
+
+#: inc/theme-info/class-about.php:164
+msgid "Get started with %s"
+msgstr "Premiers pas avec %s"
+
+#: inc/theme-info/class-about.php:164
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr "Bienvenue ! Merci d‘avoir choisi %1$s ! Pour profiter pleinement de ce que notre thème peut offrir de mieux, Veuillez vous assurer de visiter notre %2$spage de bienvenue%3$s."
+
+#: inc/theme-info/about.php:96
+msgid "Theme Documentation"
+msgstr "Documentation du thème"
+
+#: inc/theme-info/about.php:88 inc/theme-info/about.php:90
+msgid "Contact Support"
+msgstr "Contacter le support"
+
+#: inc/theme-info/about.php:76
+msgid "Please install the PostmagThemes Demo Import plugin to import the demo content. After activation go to Appearance >> Import Demo Data and import it."
+msgstr "Veuillez installer l‘extension PostmagThemes Demo Import pour importer le contenu de la démo. Après l‘avoir activé, allez dans Apparence >> Importer des données de démonstration et importez-les."
+
+#: inc/theme-info/about.php:75
+msgid "PostmagThemes Demo Import"
+msgstr "Outil d‘importation de démos de PostmagThemes"
+
+#: inc/theme-info/about.php:62
+msgid "Check recommended actions"
+msgstr "Vérifier les actions recommandées"
+
+#: inc/theme-info/about.php:61
+msgid "We recommend few steps to take so that you can get a complete site like shown in the demo."
+msgstr "Nous vous recommandons quelques étapes à suivre pour obtenir un site comme celui affiché dans la démo."
+
+#: inc/theme-info/about.php:53
+msgid "Find step-by-step instructions to set up the theme easily."
+msgstr "Trouvez des instructions pas à pas pour configurer le thème facilement."
+
+#: inc/theme-info/about.php:47
+msgid "Support"
+msgstr "Support"
+
+#: inc/theme-info/about.php:46
+msgid "Recommended Actions"
+msgstr "Actions recommandées"
+
+#: inc/theme-info/about.php:45
+msgid "Getting Started"
+msgstr "Premiers pas"
+
+#: inc/theme-info/about.php:33 inc/theme-info/about.php:54
+#: inc/theme-info/about.php:98
+msgid "View documentation"
+msgstr "Voir la documentation"
+
+#: inc/theme-info/about.php:29
+msgid "View Demo Premium"
+msgstr "Voir la démo Premium"
+
+#: inc/theme-info/about.php:25
+msgid "View Demo"
+msgstr "Voir la démo"
+
+#: footer.php:130 inc/theme-info/about.php:21
+msgid "Theme Details"
+msgstr "Détails du thème"
+
+#. translators: 1: theme name
+#: inc/theme-info/about.php:16
+msgid "We hope this page will help you to setup %1$s with few clicks. We believe you will find it easy to use and perfect for your website development."
+msgstr "Nous espérons que cette page vous aidera à configurer %1$s en quelques clics. Nous sommes convaincus que vous le trouverez facile à utiliser et parfait pour le développement de votre site."
+
+#. translators: theme version
+#: inc/theme-info/about.php:13
+msgid "Welcome to %s - "
+msgstr "Bienvenue dans %s"
+
+#: inc/theme-info/about.php:9 inc/theme-info/about.php:10
+msgid "Context blog setup"
+msgstr "Configuration de Context Blog"
+
+#: inc/template-tags.php:58
+msgid "%"
+msgstr "%"
+
+#: inc/template-tags.php:58
+msgid "1"
+msgstr "1"
+
+#: inc/template-tags.php:58
+msgid "0"
+msgstr "0"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:40
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: %s: search query.
+#: inc/template-functions.php:143
+msgid "Search Result For: %s"
+msgstr "Résultat de recherche pour : %s"
+
+#: inc/repeater/class-control-repeater.php:448
+#: inc/repeater/class-control-repeater.php:450
+msgid "Change File"
+msgstr "Changer le fichier"
+
+#: inc/repeater/class-control-repeater.php:448
+#: inc/repeater/class-control-repeater.php:452
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: inc/repeater/class-control-repeater.php:437
+#: inc/repeater/class-control-repeater.php:442
+msgid "No File Selected"
+msgstr "Aucun fichier sélectionné"
+
+#: inc/repeater/class-control-repeater.php:412
+#: inc/repeater/class-control-repeater.php:414
+msgid "Change Image"
+msgstr "Changer l’image"
+
+#: inc/repeater/class-control-repeater.php:412
+#: inc/repeater/class-control-repeater.php:416
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: inc/repeater/class-control-repeater.php:411
+#: inc/repeater/class-control-repeater.php:476
+msgid "Remove"
+msgstr "Retirer"
+
+#: inc/repeater/class-control-repeater.php:401
+#: inc/repeater/class-control-repeater.php:406
+msgid "No Image Selected"
+msgstr "Aucune image sélectionnée"
+
+#: inc/repeater/class-control-repeater.php:376
+msgid "Hex Value"
+msgstr "Valeur hexadécimale"
+
+#. translators: %s: Limit Number.
+#: inc/repeater/class-control-repeater.php:242
+msgid "Limit: %s rows"
+msgstr "Limite : %s lignes"
+
+#. translators: %s: Add new Text.
+#: inc/repeater/class-control-repeater.php:83
+msgid "Add new %s"
+msgstr "Ajouter un nouveau %s"
+
+#: inc/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr "ligne"
+
+#: inc/related-post.php:27
+msgid "Related Posts"
+msgstr "Publications similaires"
+
+#: inc/dropdown-category.php:36
+msgid "Among all the categories"
+msgstr "Parmi toutes les catégories"
+
+#: inc/customizer/sidebar/stay-connected.php:7
+msgid "Social links"
+msgstr "Réseaux sociaux"
+
+#: inc/customizer/sidebar/sidebar-layout-settings.php:60
+msgid "Enable this section on the single post and page detail"
+msgstr "Activer cette section dans les détails de la publication unique et de la page"
+
+#: inc/customizer/sidebar/sidebar-layout-settings.php:9
+msgid "Select the below option to show this section in the desired location"
+msgstr "Sélectionner l‘option ci-dessous pour afficher cette section à l‘endroit souhaité."
+
+#: inc/customizer/sidebar/sidebar-layout-settings.php:7
+msgid "Sidebar layout settings"
+msgstr "Réglages de la mise en page de la colonne latérale"
+
+#: inc/customizer/sidebar/quote.php:78
+msgid "Write Quote"
+msgstr "Écrire une citation"
+
+#: inc/customizer/sidebar/quote.php:7
+msgid "Quote section"
+msgstr "Section des citations"
+
+#: inc/customizer/sidebar/full-width.php:7
+msgid "Full-width slider section"
+msgstr "Section du diaporama en pleine largeur"
+
+#: inc/customizer/sidebar/about-author-section.php:96
+msgid "Author image"
+msgstr "Images des auteurs/autrices"
+
+#: inc/customizer/sidebar/about-author-section.php:77
+msgid "Author description"
+msgstr "Description des auteurs/autrices"
+
+#: inc/customizer/sidebar/about-author-section.php:43
+#: inc/customizer/sidebar/full-width.php:45 inc/customizer/sidebar/quote.php:43
+#: inc/customizer/sidebar/stay-connected.php:43
+msgid "Enable this section at sidebar"
+msgstr "Activer cette section dans la colonne latérale"
+
+#: inc/customizer/sidebar/about-author-section.php:7
+msgid "About author section"
+msgstr "Section à propos des auteurs/autrices"
+
+#: inc/customizer/panel/singlepage-settings-panel.php:18
+msgid "Page settings"
+msgstr "Réglages des pages"
+
+#: inc/customizer/panel/sidebar-settings-panel.php:21
+msgid "Sidebar settings"
+msgstr "Réglages de la colonne latérale"
+
+#: inc/customizer/panel/main-body-settings-panel.php:21
+msgid "Main body settings"
+msgstr "Réglages du corps principal"
+
+#: inc/customizer/panel/header-settings-panel.php:17
+msgid "Header settings"
+msgstr "Réglages de l’en-tête"
+
+#: inc/customizer/panel/header-settings-panel.php:4
+msgid "Header Image or Media"
+msgstr "Image d‘en-tête ou média"
+
+#: inc/customizer/panel/global-settings-panel.php:21
+msgid "Global settings"
+msgstr "Réglages globaux"
+
+#: inc/customizer/panel/general-layout-panel.php:18
+msgid "General layout settings"
+msgstr "Réglages de la mise en page générale"
+
+#: inc/customizer/panel/forground-textcolor-panel.php:8
+msgid "Colors settings"
+msgstr "Réglages des couleurs"
+
+#: inc/customizer/panel/footer-settings-panel.php:11
+msgid "Footer settings"
+msgstr "Réglages du pied de page"
+
+#: inc/customizer/panel/document-panel.php:11
+msgid "Documents"
+msgstr "Documents"
+
+#: inc/customizer/panel/blog-post-settings-panel.php:18
+msgid "Blog post settings"
+msgstr "Réglages des articles de blog"
+
+#: inc/customizer/panel/background-color-panel.php:9
+msgid "Background color settings"
+msgstr "Réglages de la couleur d’arrière-plan"
+
+#: inc/customizer/page/single-blog.php:56
+msgid "Related post settings"
+msgstr "Réglages des publications similares"
+
+#: inc/customizer/page/single-blog.php:7
+msgid "Single page"
+msgstr "Page unique"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:84
+msgid "Masonry"
+msgstr "Masonry"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:83
+msgid "Double column with feature"
+msgstr "Double colonne avec fonctionnalité"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:82
+msgid "Single column"
+msgstr "Colonne unique"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:78
+msgid "This setting also change archive and search page layout type."
+msgstr "Ce réglage modifie également le type de mise en page des pages d‘archive et de recherche."
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:77
+msgid "Blog Post section layout types"
+msgstr "Types de mise en page de la section articles de blog"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:43
+msgid "Enable this section"
+msgstr "Activer cette section"
+
+#: inc/customizer/main-body/main-blog-section-customizer.php:7
+msgid "Blog post section"
+msgstr "Section d‘article de blog"
+
+#: inc/customizer/main-body/introduction-customizer.php:77
+msgid "Select your page for this section"
+msgstr "Sélectionnez votre page pour cette section"
+
+#: inc/customizer/main-body/introduction-customizer.php:7
+msgid "Introduction section"
+msgstr "Section d‘introduction"
+
+#: inc/customizer/main-body/gallery-slider-customizer.php:7
+msgid "Gallery slider section"
+msgstr "Section du diaporama de la galerie"
+
+#: inc/customizer/main-body/card-slider-customizer.php:160
+#: inc/customizer/main-body/full-screen-slider-customizer.php:161
+#: inc/customizer/main-body/gallery-slider-customizer.php:160
+#: inc/customizer/main-body/introduction-customizer.php:97
+#: inc/customizer/main-body/main-blog-section-customizer.php:102
+#: inc/customizer/page/single-blog.php:84
+msgid "Excerpt Length determines the no of words in short description."
+msgstr "La longueur de l‘extrait détermine le nombre de mots de la description courte."
+
+#: inc/customizer/main-body/card-slider-customizer.php:159
+#: inc/customizer/main-body/full-screen-slider-customizer.php:160
+#: inc/customizer/main-body/gallery-slider-customizer.php:159
+#: inc/customizer/main-body/introduction-customizer.php:96
+#: inc/customizer/main-body/main-blog-section-customizer.php:101
+#: inc/customizer/page/single-blog.php:83
+msgid "Excerpt Length"
+msgstr "Longueur de l’extrait"
+
+#: inc/customizer/main-body/full-screen-slider-customizer.php:7
+msgid "Full-screen slider section"
+msgstr "Section du diaporama en plein écran"
+
+#: inc/customizer/main-body/card-slider-customizer.php:211
+#: inc/customizer/main-body/full-screen-slider-customizer.php:201
+#: inc/customizer/main-body/gallery-slider-customizer.php:200
+#: inc/customizer/main-body/main-blog-section-customizer.php:142
+msgid "Show read more"
+msgstr "Afficher lire la suite"
+
+#: inc/customizer/main-body/card-slider-customizer.php:7
+msgid "Card slider section"
+msgstr "Section diaporama de la carte"
+
+#: inc/customizer/layout/general-layout.php:68
+msgid "Default 100, Minimum 50, Maximum 100"
+msgstr "Par défaut 100, minimum 50, maximum 100"
+
+#: inc/customizer/layout/general-layout.php:61
+msgid "Detail page width"
+msgstr "Largeur de la page de détails"
+
+#: inc/customizer/layout/general-layout.php:45
+msgid "This number will change the width of detail page."
+msgstr "Ce nombre modifie la largeur de la page de détails."
+
+#: inc/customizer/layout/general-layout.php:43
+msgid "Detail page layout"
+msgstr "Mise en page de la page de détails"
+
+#: inc/customizer/layout/general-layout.php:33
+msgid "Default 67, Minimum 50, Maximum 80"
+msgstr "Par défaut 67, minimum 50, maximum 80"
+
+#: inc/customizer/layout/general-layout.php:26
+msgid "Main blog width"
+msgstr "Largeur du blog principal"
+
+#: inc/customizer/layout/general-layout.php:9
+msgid "This number will change the width between Blog post section and sidebar.  This setting will also effect on static homepage, archive, search, and detail pages."
+msgstr "Ce nombre modifie la largeur entre la section des articles de blog et la colonne latérale. Ce réglage s‘applique également à la page d‘accueil statique, aux archives, aux pages de recherche et aux pages de détails."
+
+#: inc/customizer/layout/general-layout.php:7
+msgid "Blog post layout"
+msgstr "Mise en page de l‘article de blog"
+
+#: inc/customizer/header/header-customizer.php:280
+msgid "Show site title and tagline at the center of header image"
+msgstr "Afficher le titre du site et le slogan au centre de l‘image d‘en-tête"
+
+#: inc/customizer/header/header-customizer.php:263
+msgid "Show site title and tagline on top of the header"
+msgstr "Afficher le titre du site et le slogan en haut de l‘en-tête"
+
+#: inc/customizer/header/header-customizer.php:248
+msgid "Top site title and tagline"
+msgstr "Titre et slogan du site principal"
+
+#: inc/customizer/header/header-customizer.php:237
+msgid "Show logo at the center of the header image"
+msgstr "Afficher le logo au centre de l‘image de l‘en-tête"
+
+#: inc/customizer/header/header-customizer.php:219
+#: inc/customizer/main-body/card-slider-customizer.php:60
+#: inc/customizer/main-body/full-screen-slider-customizer.php:60
+#: inc/customizer/main-body/gallery-slider-customizer.php:60
+#: inc/customizer/main-body/introduction-customizer.php:60
+#: inc/customizer/sidebar/sidebar-layout-settings.php:42
+msgid "Enable this section on the blog page"
+msgstr "Activer cette section sur la page de blog"
+
+#: inc/customizer/header/header-customizer.php:183
+#: inc/customizer/main-body/gallery-slider-customizer.php:278
+#: inc/customizer/main-body/main-blog-section-customizer.php:210
+msgid "URL Link"
+msgstr "Lien URL"
+
+#: inc/customizer/header/header-customizer.php:160
+#: inc/customizer/main-body/gallery-slider-customizer.php:253
+#: inc/customizer/main-body/main-blog-section-customizer.php:187
+msgid "Recommended size is 728px by 90px"
+msgstr "La taille recommandée est de 728px par 90px"
+
+#: inc/customizer/header/header-customizer.php:159
+#: inc/customizer/main-body/gallery-slider-customizer.php:252
+#: inc/customizer/main-body/main-blog-section-customizer.php:186
+msgid "Advertisement image"
+msgstr "Image publicitaire"
+
+#: inc/customizer/header/header-customizer.php:141
+#: inc/customizer/header/header-customizer.php:201
+#: inc/customizer/main-body/card-slider-customizer.php:43
+#: inc/customizer/main-body/full-screen-slider-customizer.php:43
+#: inc/customizer/main-body/gallery-slider-customizer.php:43
+#: inc/customizer/main-body/gallery-slider-customizer.php:235
+#: inc/customizer/main-body/introduction-customizer.php:43
+#: inc/customizer/main-body/main-blog-section-customizer.php:168
+#: inc/customizer/sidebar/sidebar-layout-settings.php:25
+msgid "Enable this section on the homepage"
+msgstr "Activer cette section sur la page d‘accueil"
+
+#: inc/customizer/header/header-customizer.php:125
+#: inc/customizer/main-body/gallery-slider-customizer.php:217
+#: inc/customizer/main-body/main-blog-section-customizer.php:151
+msgid "Advertisement settings"
+msgstr "Réglages des publicités"
+
+#: inc/customizer/header/header-customizer.php:80
+msgid "Top social links"
+msgstr "Liens sociaux haut"
+
+#: inc/customizer/header/header-customizer.php:50
+msgid "Content of this side menu is configured via appearance >> menu. Here under menu settings select display location as Side panel menu. It supports level 1 menu only."
+msgstr "Le contenu de ce menu latéral est configuré via Apparence >> Menu. Dans les réglages du menu, sélectionnez l‘emplacement d‘affichage en tant que menu du panneau latéral. Il prend en charge uniquement le menu de niveau 1."
+
+#: inc/customizer/header/header-customizer.php:49
+msgid "Show side menu"
+msgstr "Afficher le menu latéral"
+
+#: inc/customizer/header/header-customizer.php:33
+msgid "Side menu"
+msgstr "Menu latéral"
+
+#: inc/customizer/header/header-customizer.php:22
+msgid "Show logo on the left side of the top header"
+msgstr "Afficher le logo sur le côté gauche de l‘en-tête"
+
+#: inc/customizer/header/header-customizer.php:7
+msgid "Top logo"
+msgstr "Logo haut"
+
+#: inc/customizer/global/other-section.php:22
+msgid "A modal is a dialog box displayed on the screen when clicking the Read More button. It provides a user-friendly way of displaying detailed information about the post without navigating away from the current page."
+msgstr "Une modale est une boîte de dialogue qui s‘affiche à l‘écran lorsque l‘on clique sur le bouton Lire la suite. Elle constitue un moyen simple d‘utilisation d‘afficher des informations détaillées sur l'article, sans avoir à naviguer hors de la page en cours."
+
+#: inc/customizer/global/other-section.php:21
+msgid "Show modal popup"
+msgstr "Afficher la fenêtre surgissante"
+
+#: inc/customizer/global/other-section.php:6
+msgid "Modal popup for read more "
+msgstr "Fenêtre surgissante pour lire la suite"
+
+#: inc/customizer/global/common-social-section.php:119
+msgid "Example: fab fa-facebook-f"
+msgstr "Exemple : fab fa-facebook-f"
+
+#: inc/customizer/global/common-social-section.php:74
+#: inc/customizer/global/common-social-section.php:129
+msgid "social"
+msgstr "social"
+
+#: inc/customizer/global/common-social-section.php:124
+msgid "Example: http://facebook.com"
+msgstr "Exemple : https://facebook.com"
+
+#: inc/customizer/global/common-social-section.php:68
+#: inc/customizer/global/common-social-section.php:123
+msgid "Link"
+msgstr "Lien"
+
+#: inc/customizer/global/common-social-section.php:64
+msgid "Example: fab fa-facebook"
+msgstr "Exemple : fab fa-facebook"
+
+#: inc/customizer/global/common-social-section.php:63
+#: inc/customizer/global/common-social-section.php:118
+msgid "Font Awesome Icon"
+msgstr "Icône Font Awesome"
+
+#: inc/customizer/global/common-social-section.php:59
+#: inc/customizer/global/common-social-section.php:114
+msgid "Social Links"
+msgstr "Réseaux sociaux"
+
+#: inc/customizer/global/common-social-section.php:20
+msgid "Author social link"
+msgstr "Lien social de l‘auteur/autrice"
+
+#: inc/customizer/global/common-social-section.php:6
+msgid "Page social links"
+msgstr "Liens de la page des réseaux sociaux"
+
+#: inc/customizer/footer/footer-second-post.php:6
+msgid "Second post section"
+msgstr "Deuxième section de publications"
+
+#: inc/customizer/footer/footer-memo.php:97
+#: inc/customizer/header/header-customizer.php:116
+#: inc/customizer/sidebar/about-author-section.php:120
+msgid "Show social links"
+msgstr "Afficher les liens sociaux"
+
+#: inc/customizer/footer/footer-memo.php:77
+#: inc/customizer/sidebar/about-author-section.php:153
+msgid "Read more Url"
+msgstr "URL Lire la suite"
+
+#: inc/customizer/footer/footer-memo.php:59
+#: inc/customizer/sidebar/about-author-section.php:136
+msgid "Text for read more button"
+msgstr "Texte du bouton Lire la suite"
+
+#: inc/customizer/footer/footer-memo.php:6
+msgid "Memo section"
+msgstr "Section mémo"
+
+#: inc/customizer/footer/footer-logo.php:22
+msgid "Show logo on the left side of the footer"
+msgstr "Afficher le logo sur le côté gauche du pied de page"
+
+#: inc/customizer/footer/footer-logo.php:6
+msgid "Footer logo"
+msgstr "Logo de pied de page"
+
+#. translators: %s: Label
+#: inc/customizer/footer/footer-first-post.php:137
+#: inc/customizer/footer/footer-second-post.php:154
+#: inc/customizer/main-body/card-slider-customizer.php:191
+#: inc/customizer/main-body/full-screen-slider-customizer.php:182
+#: inc/customizer/main-body/gallery-slider-customizer.php:181
+#: inc/customizer/main-body/main-blog-section-customizer.php:123
+#: inc/customizer/page/single-blog.php:28
+#: inc/customizer/sidebar/full-width.php:129
+msgid "Show %s"
+msgstr "Voir %s"
+
+#: inc/customizer/footer/footer-first-post.php:110
+#: inc/customizer/footer/footer-second-post.php:123
+#: inc/customizer/main-body/card-slider-customizer.php:141
+#: inc/customizer/main-body/full-screen-slider-customizer.php:142
+#: inc/customizer/main-body/gallery-slider-customizer.php:141
+#: inc/customizer/sidebar/full-width.php:108
+msgid "Maximum number of posts to show"
+msgstr "Nombre maximal de publications à afficher"
+
+#: inc/customizer/footer/footer-first-post.php:93
+#: inc/customizer/footer/footer-second-post.php:106
+#: inc/customizer/main-body/card-slider-customizer.php:123
+#: inc/customizer/main-body/full-screen-slider-customizer.php:123
+#: inc/customizer/main-body/gallery-slider-customizer.php:124
+#: inc/customizer/sidebar/full-width.php:89
+msgid "Select category"
+msgstr "Sélectionner une catégorie"
+
+#: inc/customizer/footer/footer-first-post.php:75
+#: inc/customizer/footer/footer-second-post.php:85
+#: inc/customizer/main-body/card-slider-customizer.php:102
+#: inc/customizer/main-body/full-screen-slider-customizer.php:102
+#: inc/customizer/main-body/gallery-slider-customizer.php:102
+#: inc/customizer/sidebar/full-width.php:68
+msgid "Random"
+msgstr "Aléatoire"
+
+#: inc/customizer/footer/footer-first-post.php:74
+#: inc/customizer/footer/footer-second-post.php:84
+#: inc/customizer/main-body/card-slider-customizer.php:101
+#: inc/customizer/main-body/full-screen-slider-customizer.php:101
+#: inc/customizer/main-body/gallery-slider-customizer.php:101
+#: inc/customizer/sidebar/full-width.php:67
+msgid "Comment count"
+msgstr "Nombre de commentaires"
+
+#: inc/customizer/footer/footer-first-post.php:73
+#: inc/customizer/footer/footer-second-post.php:83
+#: inc/customizer/main-body/card-slider-customizer.php:100
+#: inc/customizer/main-body/full-screen-slider-customizer.php:100
+#: inc/customizer/main-body/gallery-slider-customizer.php:100
+#: inc/customizer/sidebar/full-width.php:66
+msgid "Recent publish date"
+msgstr "Date de publication récente"
+
+#: inc/customizer/footer/footer-first-post.php:69
+#: inc/customizer/footer/footer-second-post.php:79
+#: inc/customizer/main-body/card-slider-customizer.php:96
+#: inc/customizer/main-body/full-screen-slider-customizer.php:96
+#: inc/customizer/main-body/gallery-slider-customizer.php:96
+#: inc/customizer/sidebar/full-width.php:62
+msgid "Select chronological order"
+msgstr "Sélectionner l‘ordre chronologique"
+
+#: inc/customizer/footer/footer-first-post.php:50
+#: inc/customizer/footer/footer-second-post.php:60
+#: inc/customizer/main-body/card-slider-customizer.php:77
+#: inc/customizer/main-body/full-screen-slider-customizer.php:77
+#: inc/customizer/main-body/gallery-slider-customizer.php:77
+#: inc/customizer/main-body/main-blog-section-customizer.php:60
+#: inc/customizer/page/single-blog.php:65
+#: inc/customizer/sidebar/about-author-section.php:59
+#: inc/customizer/sidebar/quote.php:59
+#: inc/customizer/sidebar/stay-connected.php:59
+msgid "Title"
+msgstr "Titre"
+
+#: inc/customizer/footer/footer-first-post.php:36
+#: inc/customizer/footer/footer-second-post.php:43
+msgid "Enable this section on the footer"
+msgstr "Activer cette section dans le pied de page"
+
+#: inc/customizer/footer/footer-first-post.php:6
+msgid "First post section"
+msgstr "Section du premier article"
+
+#: inc/customizer/document/document.php:125
+msgid "Post Credentials"
+msgstr "Informations des publications"
+
+#: inc/customizer/document/document.php:112
+msgid "Setup section"
+msgstr "Section de configuration"
+
+#: inc/customizer/document/document.php:99
+msgid "Sidebar appearance"
+msgstr "Apparence de la colonne latérale"
+
+#: inc/customizer/document/document.php:86
+msgid "Section appearance"
+msgstr "Section Apparence"
+
+#: inc/customizer/document/document.php:60
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: inc/customizer/document/document.php:46
+msgid "About"
+msgstr "À propos"
+
+#: inc/customizer/document/document.php:34
+msgid "Specific"
+msgstr "Spécifique"
+
+#: inc/customizer/document/document.php:21
+msgid "Generic"
+msgstr "Générique"
+
+#: inc/customizer/document/document.php:20
+#: inc/customizer/document/document.php:33
+#: inc/customizer/document/document.php:59
+#: inc/customizer/document/document.php:72
+#: inc/customizer/document/document.php:85
+#: inc/customizer/document/document.php:98
+#: inc/customizer/document/document.php:111
+#: inc/customizer/document/document.php:124
+msgid "View"
+msgstr "Vue"
+
+#: inc/customizer/document/document.php:9 inc/theme-info/about.php:37
+msgid "Buy Premium version"
+msgstr "Acheter la version Premium"
+
+#: inc/customizer/document/document.php:8
+msgid "Go to Pro"
+msgstr "Passer en Pro"
+
+#: inc/customizer/color/forground-text-color.php:72
+msgid "Note: Header text color applies for both site title and tag line"
+msgstr "Noter : La couleur du texte de l‘en-tête s‘applique à la fois au titre du site et au slogan."
+
+#: inc/customizer/color/forground-text-color.php:71
+msgid "Header text color on top of the header"
+msgstr "Couleur du texte en haut de l‘en-tête"
+
+#: inc/customizer/color/forground-text-color.php:46
+msgid "Opacity is the degree to which overlaying color is shown. If you wish to completely remove it then configure value 0 here. Note:- This opacity is used in the case of site title and tagline shown at the center of header image."
+msgstr "L‘opacité est l‘intensité d'affichage de la couleur de superposition. Si vous souhaitez la retirer complètement, configurez la valeur à 0. Note : Cette opacité est utilisée dans le cas du titre du site et du slogan affichés au centre de l‘image d‘en-tête."
+
+#: inc/customizer/color/forground-text-color.php:45
+msgid "Opacity of header text color "
+msgstr "Opacité de la couleur du texte de l‘en-tête"
+
+#: inc/customizer/color/forground-text-color.php:26
+msgid "Primary theme color"
+msgstr "Couleur principale du thème"
+
+#: inc/customizer/color/forground-text-color.php:6
+msgid "Colors"
+msgstr "Couleurs"
+
+#: inc/customizer/color/background-color.php:60
+msgid "Opacity is the degree to which overlaying color is shown. If you wish to completly remove it then configure value 0 here."
+msgstr "L‘opacité est l‘intensité d‘affichage de la couleur de superposition. Si vous souhaitez la retirer complètement, configurez la valeur à 0."
+
+#: inc/customizer/color/background-color.php:59
+msgid "Opacity of overlaying color"
+msgstr "Opacité de la couleur superposée"
+
+#: inc/customizer/color/background-color.php:42
+msgid "This feature cover the header image with the color of your choice to enhanced viewing of header image. Note:- This overlaying color does not apply to header video."
+msgstr "Cette fonctionnalité permet de recouvrir l‘image de l‘en-tête avec la couleur de votre choix afin d‘améliorer la visibilité de l‘image. Note : Cette couleur superposée ne s‘applique pas à la vidéo d‘en-tête."
+
+#: inc/customizer/color/background-color.php:41
+msgid "Overlaying color over the header image"
+msgstr "Superposer une couleur à l‘image de l‘en-tête"
+
+#: inc/customizer/color/background-color.php:20
+msgid "Main background color"
+msgstr "Couleur d‘arrière-plan principale"
+
+#: inc/customizer/color/background-color.php:9
+#: inc/customizer/document/document.php:73
+msgid "Background color"
+msgstr "Couleur d‘arrière-plan"
+
+#: inc/customizer.php:102
+#: inc/customizer/main-body/card-slider-customizer.php:166
+#: inc/customizer/main-body/full-screen-slider-customizer.php:167
+#: inc/customizer/main-body/gallery-slider-customizer.php:166
+#: inc/customizer/main-body/main-blog-section-customizer.php:108
+#: inc/related-post.php:8 main-body/card-slider-section.php:9
+#: main-body/full-screen-slider-section.php:8
+#: main-body/gallery-slider-section.php:9 main-body/main-blog-section.php:18
+msgid "excerpt"
+msgstr "extrait"
+
+#: inc/customizer-sanitize.php:100
+msgid "Hide"
+msgstr "Masquer"
+
+#: inc/customizer-sanitize.php:99
+msgid "Show"
+msgstr "Afficher"
+
+#: inc/custom-header.php:40
+msgid "Default Header Image"
+msgstr "Image d‘en-tête par défaut"
+
+#: inc/breadcrumbs.php:808
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: inc/breadcrumbs.php:779 inc/breadcrumbs.php:1237
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/breadcrumbs.php:778 inc/breadcrumbs.php:848 inc/breadcrumbs.php:1232
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/breadcrumbs.php:777 inc/breadcrumbs.php:807 inc/breadcrumbs.php:847
+#: inc/breadcrumbs.php:875 inc/breadcrumbs.php:1227
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/breadcrumbs.php:760
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "G\\hi"
+
+#: inc/breadcrumbs.php:742
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/breadcrumbs.php:724
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "G\\hi"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:250
+msgid "Week %s"
+msgstr "%s semaine"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:248
+msgid "Minute %s"
+msgstr "%s minute"
+
+#. Translators: %s is the page number.
+#: inc/breadcrumbs.php:246
+msgid "Page %s"
+msgstr "Page %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: inc/breadcrumbs.php:244
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Résultats de la recherche pour « %s »"
+
+#: inc/breadcrumbs.php:242
+msgid "Archives"
+msgstr "Archives"
+
+#: inc/breadcrumbs.php:241
+msgid "404 Not Found"
+msgstr "404 introuvable"
+
+#: inc/breadcrumbs.php:240
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/breadcrumbs.php:239
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Fil d’Ariane"
+
+#: inc/breadcrumbs.php:238
+msgid "Browse:"
+msgstr "Parcourir :"
+
+#: inc/ajax/modal-popup.php:8
+msgid "Close"
+msgstr "Fermer"
+
+#: inc/ajax/modal-popup.php:4
+msgid "Full view"
+msgstr "Vue d‘ensemble"
+
+#: header.php:29 header.php:31
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:168
+msgid "Footer area"
+msgstr "Zone du pied de page"
+
+#: functions.php:156
+msgid "Body block section bar area"
+msgstr "Section de la zone de la barre du corps du bloc"
+
+#: functions.php:147 functions.php:158 functions.php:170
+msgid "Add widgets here."
+msgstr "Ajoutez des widgets ici."
+
+#: functions.php:145
+msgid "Sidebar area"
+msgstr "Zone de la colonne latérale"
+
+#: functions.php:61
+msgid "Sidepanel menu"
+msgstr "Menu latéral"
+
+#: functions.php:60
+msgid "Primary"
+msgstr "Principal"
+
+#: footer.php:126
+msgid "Proudly powered by WordPress"
+msgstr "Fièrement propulsé par WordPress"
+
+#: footer.php:50 footer.php:84 inc/customizer.php:100
+#: inc/customizer/footer/footer-first-post.php:115
+#: inc/customizer/footer/footer-second-post.php:129
+#: inc/customizer/footer/footer-second-post.php:131
+#: inc/customizer/main-body/card-slider-customizer.php:166
+#: inc/customizer/main-body/full-screen-slider-customizer.php:167
+#: inc/customizer/main-body/gallery-slider-customizer.php:166
+#: inc/customizer/main-body/main-blog-section-customizer.php:108
+#: inc/customizer/page/single-blog.php:13
+#: inc/customizer/sidebar/full-width.php:114 inc/related-post.php:7
+#: main-body/card-slider-section.php:8
+#: main-body/full-screen-slider-section.php:7
+#: main-body/gallery-slider-section.php:8 main-body/main-blog-section.php:17
+#: sidebar/full-width.php:8 template-parts/content-page.php:13
+#: template-parts/content-single.php:20
+msgid "comment"
+msgstr "commentaire"
+
+#: footer.php:49 footer.php:83 inc/customizer.php:99
+#: inc/customizer/footer/footer-first-post.php:115
+#: inc/customizer/footer/footer-first-post.php:117
+#: inc/customizer/footer/footer-second-post.php:129
+#: inc/customizer/main-body/card-slider-customizer.php:166
+#: inc/customizer/main-body/full-screen-slider-customizer.php:167
+#: inc/customizer/main-body/gallery-slider-customizer.php:166
+#: inc/customizer/main-body/main-blog-section-customizer.php:108
+#: inc/customizer/page/single-blog.php:13
+#: inc/customizer/sidebar/full-width.php:114 inc/related-post.php:6
+#: main-body/card-slider-section.php:7
+#: main-body/full-screen-slider-section.php:6
+#: main-body/gallery-slider-section.php:7 main-body/main-blog-section.php:16
+#: sidebar/full-width.php:7 template-parts/content-page.php:12
+#: template-parts/content-single.php:19
+msgid "date"
+msgstr "date"
+
+#: footer.php:48 footer.php:82 inc/customizer.php:98
+#: inc/customizer/footer/footer-first-post.php:115
+#: inc/customizer/footer/footer-first-post.php:117
+#: inc/customizer/footer/footer-second-post.php:129
+#: inc/customizer/footer/footer-second-post.php:131
+#: inc/customizer/main-body/card-slider-customizer.php:166
+#: inc/customizer/main-body/full-screen-slider-customizer.php:167
+#: inc/customizer/main-body/gallery-slider-customizer.php:166
+#: inc/customizer/main-body/main-blog-section-customizer.php:108
+#: inc/customizer/page/single-blog.php:13
+#: inc/customizer/sidebar/full-width.php:114 inc/related-post.php:5
+#: main-body/card-slider-section.php:6
+#: main-body/full-screen-slider-section.php:5
+#: main-body/gallery-slider-section.php:6 main-body/main-blog-section.php:15
+#: sidebar/full-width.php:6 template-parts/content-page.php:11
+#: template-parts/content-single.php:18
+msgid "meta"
+msgstr "méta"
+
+#: footer.php:47 footer.php:81 inc/customizer.php:101
+#: inc/customizer/footer/footer-first-post.php:115
+#: inc/customizer/footer/footer-second-post.php:129
+#: inc/customizer/main-body/card-slider-customizer.php:166
+#: inc/customizer/main-body/card-slider-customizer.php:168
+#: inc/customizer/main-body/full-screen-slider-customizer.php:167
+#: inc/customizer/main-body/gallery-slider-customizer.php:166
+#: inc/customizer/main-body/main-blog-section-customizer.php:108
+#: inc/customizer/sidebar/full-width.php:114 inc/related-post.php:4
+#: main-body/card-slider-section.php:5
+#: main-body/full-screen-slider-section.php:4
+#: main-body/gallery-slider-section.php:5 main-body/main-blog-section.php:14
+#: sidebar/full-width.php:5
+msgid "category"
+msgstr "catégorie"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s commentaire"
+msgstr[1] "%1$s commentaires"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: archive.php:100 main-body/main-blog-section.php:101 search.php:97
+msgid "Next"
+msgstr "Suivant"
+
+#: archive.php:99 main-body/main-blog-section.php:100 search.php:96
+msgid "Previous"
+msgstr "Précédent"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Contenu Introuvable. L'outil de Recherche ou les Liens ci-dessous vous remettront peut-être sur la voie&hellip;"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Aïe ! Cette page est introuvable."
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://postmagthemes.com/"
+msgstr "https://postmagthemes.com/"
+
+#. Author of the theme
+#: style.css footer.php:128
+#, gp-priority: low
+msgid "postmagthemes.com"
+msgstr "postmagthemes.com"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.postmagthemes.com/downloads/context-blog-free-wordpress-theme/"
+msgstr "https://www.postmagthemes.com/downloads/context-blog-free-wordpress-theme/"

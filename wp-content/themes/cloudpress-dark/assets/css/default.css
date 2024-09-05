@@ -1,0 +1,247 @@
+.site-title a:hover{
+  color: #ee591f;
+}
+.navbar5.navbar-custom .search-box-outer a:hover {color: #ee591f; background-color: transparent;}
+
+.navbar5.navbar-custom .nav li.active a,
+.navbar5.navbar-custom .nav li.active a:hover,
+.navbar5.navbar-custom .nav li.active a:focus,
+.navbar5.navbar-custom .nav li a:hover {
+    color: #fff;
+    background-color: #ee591f;
+}
+
+@media (max-width: 991px) {
+	.navbar5.navbar-custom .nav li.active a,
+	.navbar5.navbar-custom .nav li.active a:hover,
+	.navbar5.navbar-custom .nav li.active a:focus,
+	.navbar5.navbar-custom .nav li a:hover {
+	    color: #ffffff; background-color: #ee591f;
+	}
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f8f9fa !important;
+}
+.navbar5.navbar .nav .nav-item:hover .nav-link, .navbar5.navbar .nav .nav-item .nav-link:focus {
+    color: #ffffff;
+    background-color: #ee591f;
+}
+.navbar5.navbar .nav .nav-item.active .nav-link {
+    color: #ffffff;
+    background-color: #ee591f;
+}
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover, .woocommerce-loop-product__title:hover {
+    color: #ee591f;
+}
+button, .search-form input[type="submit"], .woocommerce [type=submit], .woocommerce button, .woocommerce ul.products li.product .onsale, .woocommerce ul.products li.product .button {
+    background: #ee591f none repeat scroll 0 0 !important;
+    border: 1px solid #ee591f;
+}
+.woocommerce [type=submit]:hover, .woocommerce button:hover {
+    background: #061018 !important;
+    border: 1px solid #061018 !important;
+}
+.woocommerce-notices-wrapper .woocommerce-message a.button {
+    background-color: #ee591f !important;
+}
+.woocommerce-message {
+  border-top-color: #ee591f !important;
+}
+.woocommerce-message::before {
+  color: #ee591f !important;
+}
+.woocommerce-info {
+    border-top-color: #ee591f;
+}
+.woocommerce-info::before {
+  color: #ee591f;
+}
+.cart-header a .cart-total span {
+  display: none;
+}
+.call-to-action, .call-to-action-one {
+    background-color: #ee591f;
+}
+.btn-animate.border {
+    border: 2px solid #ee591f !important;
+}
+.bg-default {
+    background-color: #ee591f;
+}
+.btn-animate.border:before, .btn-animate.border:after {
+    background: #ee591f;
+}
+.main-slider .btn-small.btn-light {
+    background: #ee591f;
+}
+.entry-meta .cat-links a, .entry-meta .tag-links a, .entry-header .entry-title a:hover, .entry-header .entry-title a:focus, .entry-meta a:hover {
+    color: #ee591f;
+}
+.btn-animate.dark, .site-info {
+  background: #ee591f;
+}
+@media (min-width: 992px) {
+  .navbar5 .search-box-outer .dropdown-menu {
+      top: 30px !important;
+  }
+}
+.entry-meta a:hover, .entry-meta a:focus, .page-breadcrumb.text-center .breadcrumb_last, .page-breadcrumb.text-center span a:hover, .woocommerce p.stars a {
+    color: #ee591f !important;
+}
+.navbar5 button{
+    background-color: transparent !important;
+}
+@media (min-width: 992px) {
+  .navbar5 .header-module {
+    width: 210px;
+    text-align: right;
+  }
+}
+.dark .widget a:hover,.dark .widget a:focus{
+  color: #ee591f !important;
+}
+/*.dark .widget a:hover{
+	    margin: 2px;
+}*/
+.pagination a:hover, .pagination a.active, .page-numbers.current, input[type="submit"], .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle
+{
+    background-color: #ee591f !important;
+}
+body .woocommerce button.button, .woocommerce span.onsale, .woocommerce #review_form #respond .form-submit input, .checkout-button.button.alt.wc-forward {
+    background-color: #ee591f !important;
+}
+body .woocommerce .return-to-shop a.button { background-color: #ee591f !important; }
+
+.widget .head-contact-info li a:hover, .widget .head-contact-info li a:focus { color: #fff !important; }
+.reply a {
+    background-color: #ee591f;
+    border: 1px solid #ee591f;
+}
+.reply a:hover {
+  border: 1px solid #000;
+}
+.search .site-content .blog .more-link {
+  text-decoration: none !important;
+}
+.error-404 h1 > i {
+  color: #ee591f;
+}
+.error-404 .btn-animate.border {
+    background-color: #ee591f !important;
+}
+.header-sidebar {
+    background-color: #ee591f;
+}
+.widget .head-contact-info li a:hover {
+    color: #fff;
+}
+
+/* ========= Team Section ======== */
+.team-grid .social-links li a:hover, .team-grid .social-links li a:focus {
+    color: #ee591f;
+}
+/* ========== Owl Carousel next Prev Button =========== */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ee591f;
+}
+.owl-carousel .owl-prev:hover, .owl-carousel .owl-prev:focus, .owl-carousel .owl-next:hover, .owl-carousel .owl-next:focus {
+    background-color: #ee591f;
+}
+.services4 .post-thumbnail i.fa {
+    background: #ee591f;
+}
+.services4 .post-thumbnail i.fa, .services4 .post:hover {
+    background: #ee591f;
+}
+.services4 .post:hover .post-thumbnail i.fa {
+    color: #ee591f;
+}
+.dark .testmonial-block .name > a:hover {
+    color: #ee591f;
+}
+.dark .entry-header .entry-title a:hover {
+    color: #ee591f;
+}
+.navbar a.bg-light:hover, .dropdown-item:hover {
+    background-color: transparent !important;
+    color: #ee591f !important;
+}
+body.dark .navbar5.navbar .nav .nav-item.active .nav-link {
+    color: #ffffff;
+    background-color: #ee591f;
+}
+body.dark .navbar .search-box-outer .dropdown-menu {
+    border-top: solid 1px #ee591f;
+}
+.entry-content a:hover, .entry-content a:focus {
+    color: #ee591f;
+}
+.navbar .nav .nav-item:hover .nav-link, .navbar .nav .nav-item.active .nav-link, .dropdown-menu > li.active > a, .navbar .nav .nav-item.current_page_parent .nav-link {
+    color: #ee591f;
+}
+blockquote {
+    border-left: 3px solid #ee591f;
+}
+.cart-header .cart-total {
+    background: #ee591f;
+}
+.dark .pagination a:hover, .dark .pagination a.active {
+    background-color: #ee591f;
+    border: 1px solid #ee591f;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #EE591F !important;
+}
+.pagination a:hover, .pagination a.active, .page-numbers.current {
+   border: 1px solid #EE591F;
+}
+body.dark a:hover,body.dark a:active,body.dark a:focus {
+    color: #EE591F;
+}
+body.dark .woocommerce .widget .tagcloud a:hover {
+    background-color: #EE591F;
+    border: 1px solid #EE591F;
+}
+body.dark .woocommerce #respond .form-submit input[type="submit"], body.dark .woocommerce a.button, body.dark .woocommerce button.button, body.dark .woocommerce input.button {
+    background-color: #EE591F !important;
+}
+body.dark .row.section-module.Blogs-detail .blog .post .entry-content a:hover {
+    color: #EE591F;
+}
+body.dark .widget.widget_block .tag-cloud-link:hover,.dark .widget .tagcloud a:hover {
+    color: #EE591F !important; 
+}
+/*css for Rank Math Breadcrumbs */
+nav.rank-math-breadcrumb {
+    text-align: center ! important;
+}
+nav.rank-math-breadcrumb span {
+    color:#ee591f   !important;
+}
+nav.rank-math-breadcrumb a {
+    color: #fff ! important;
+    padding-right: 5px ! important;
+}
+/*css for  NavXT */
+.bs-breadcrumb-section .breadcrumb a, .bs-breadcrumb-section .breadcrumb-item span {
+    color: #bb2323;
+}
+.bs-breadcrumb-section .breadcrumb, .bs-breadcrumb-section .breadcrumb a {
+    font-size: 13px;
+}
+.page-breadcrumb.text-center span {
+    background: none;
+}
+.page-breadcrumb.text-center span:hover {
+    background: none;
+}
+.page-breadcrumb.text-center span.post-page.current-item,
+.page-breadcrumb.text-center span.post-post.current-item {
+   color:#ee591f   !important;
+}
+.page-breadcrumb {
+    color: #fff;
+}
+.navxt-breadcrumb .current-item {
+    color:#ee591f   !important;
+}

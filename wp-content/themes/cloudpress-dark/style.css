@@ -1,0 +1,278 @@
+/*
+Theme Name: CloudPress Dark
+Theme URI: https://spicethemes.com/cloudpress-dark-wordpress-theme/
+Author: spicethemes
+Author URI: https://spicethemes.com
+Description: CloudPress Dark WordPress Theme is a lightweight, elegant, fully responsive theme that allows you to create stunning blogs and websites. The theme is well suited for companies, law firms, e-commerce, finance, agency, travel, photography, recipes, design, arts, personal, and other creative websites and blogs. The theme is developed using the Bootstrap 4 framework. It comes with a predesigned home page, good-looking header designs, and several content sections that you can easily customize. It also has lots of customization options (banner, services, testimonial, etc) that will help you create a beautiful, unique website in no time. It is compatible with popular plugins like WPML, Polylang, WooCommerce and Contact Form 7. The theme comes with various popular locales. (DEMO: https://cloudpress-dark.spicethemes.com/)
+Template: cloudpress
+Tags: one-column, two-columns, right-sidebar, custom-colors, custom-menu, custom-logo, custom-header, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog
+Version: 1.1.1
+Requires at least: 4.5
+Tested up to: 6.2
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cloudpress-dark
+
+/*------------------- Accessibility -------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	word-wrap: normal !important;
+	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+body.dark .screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+/*------------------- Header -------------------*/
+.header-logo.index5 {padding: 20px 0; text-align: center;background: #fff;}
+.index5 .navbar-brand {float: none; padding: 0; height: 0; display: initial;}
+.index5 .navbar-brand>img {margin: 0 auto 15px;}
+.index5 .custom-logo-link-url {text-align: center;}
+.index5 .custom-logo-link-url .site-title {font-size: 2.5rem;}
+.index5 .custom-logo-link-url p {margin: 0;}
+
+.navbar5.navbar {position: relative; background-color: #000000 !important;}
+.navbar5 .navbar-toggler {
+    position: relative;
+        padding: .25rem .75rem;
+    float: none;
+    margin: 15px auto;
+}
+.navbar5.navbar .nav .nav-item .nav-link {
+	color: #ffffff;
+	margin: 0;
+	padding: 0.875rem 20px;
+	position: relative;
+}
+.navbar5.navbar .nav .nav-item {
+    margin-right: 0;
+}
+.navbar5 .cart-header > a.cart-icon {color: #ffffff;}
+.navbar5 .search-box-outer a{
+	color:#ffffff;
+}
+@media (min-width: 992px) {
+  .navbar5 .nav .nav-item .nav-link {
+      margin: 0.5rem 0;
+  }
+  .navbar5.navbar {padding-bottom: 0;padding-top: 0;}
+  .navbar5 .header-module {padding: 10px 15px; float: right;}
+  .navbar5.navbar .nav .nav-item.active .nav-link:after {
+    content: '';
+    position: absolute;
+    border-top: .35em solid;
+    border-right: .35em solid transparent;
+    border-left: .35em solid transparent;
+    display: block;
+    top: 0;
+    color: #ffffff;
+    left: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .navbar5 .navbar-collapse ul, .navbar5 .navbar-collapse ol {
+    margin: 1.5em 0em 1.5em 0em;
+  }
+  .navbar5 .navbar-collapse, .navbar5 .navbar-collapse.collapse.in {
+    background-color: transparent;
+  }
+}
+.navbar .site-title {
+	clear: none;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	letter-spacing: 0.05rem;
+	margin: 0;
+}
+.navbar .header-module {
+    padding-left: 15px;
+    padding-top: 18px;
+}
+@media (max-width: 991px) {
+  .navbar .header-module {
+      border-left: none;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+}
+@media (max-width: 991px) {
+	.header-lt {width: 100%;}
+	.custom-logo-link-url {
+	    display: block;
+	    vertical-align: middle;
+	}
+	.site-description {margin: 0;}
+	.navbar-toggler {float: right; margin: 15px auto;}
+	.navbar .navbar-collapse,.navbar .navbar-collapse.collapse.in {
+	    background-color: transparent;
+	}
+}
+@media (max-width: 480px) {
+	.custom-logo-link-url {
+		display: block;
+	}
+	.navbar-toggler {margin: 15px auto; float: none;}
+	.header-lt {text-align: center;}
+}
+/*===================================================================================*/
+/*  SERVICE SECTION Variation 4
+/*===================================================================================*/
+.services4 .post {
+    margin-bottom: 2rem;
+    padding: 1.438rem 1.25rem;
+    transition: 0.25s;
+    -webkit-transition: all 0.25s ease-in;
+   -moz-transition: all 0.25s ease-in;
+   transition: all 0.25s ease-in;
+}
+.services4 .post-thumbnail {
+    position: relative;
+    text-align: center;
+    margin: 0 auto 1.550rem;
+}
+.services4 .post-thumbnail img { border-radius: 2px; }
+.services4 .post-thumbnail i.fa , .services4 .post-thumbnail img {
+    border-radius: 10%;
+    color: #fff;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.25rem;
+    line-height: 1.8;
+    padding: 0.313rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.services4 .entry-header .entry-title a:hover { color:#fff !important;}
+.services4 .post:hover .entry-header .entry-title a {color:#fff; }
+.services4 .post:hover .entry-content p {color:#fff; }
+.services4 .post:hover .post-thumbnail i.fa {
+    background: #f5f6fa;
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+}
+.services4 .post:hover {
+    color: #fff;
+     -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    transform: translateY(-7px);
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
+}
+.services4 .entry-header .entry-title {
+    margin-bottom: 15px;
+}
+/*===================================================================================*/
+/*  18.0 TESTIMONIAL SECTION
+/*===================================================================================*/
+
+.testimonial-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    background-size: cover;
+    padding: 100px 0 210px;
+}
+.testimonial-wrapper:before,.testimonial2:before,.testimonial3:before,.testimonial4:before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.testimonial {
+    height: 100%;
+    width: 100%;
+    margin-top: -210px;
+    padding: 0px 0 0px;
+    position: relative;
+    background-color: transparent;
+}
+.testmonial-block {
+    background-color: #ffffff;
+    border-left: none;
+    position: relative;
+    margin: 0px 0 50px;
+    padding: 50px 30px 50px;
+    border-left: none;
+    font-style: normal;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    border: 1px solid #eee;
+    font-size: 1.125rem;
+    color: #696969;
+    font-weight: 400;
+}
+.testmonial-block:hover {
+    -webkit-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    transform: translateY(-7px);
+}
+
+.description-box { background-color: #ffffff; border-radius: 0px; margin: 0 0 35px; padding: 30px; position: relative; min-height: 182px; }
+.testmonial-block .avatar { margin: 0px auto 30px; width: 100px; height: auto;  }
+.testmonial-block .description { margin: 0 0 24px; }
+
+.testmonial-block .name { color: #333333; font-size: 1.125rem; margin: 0px 0 -5px; font-weight: 600; }
+.testmonial-block .name > a { color: #333333; }
+
+.testmonial-block .designation {  font-size: 0.875rem; padding-left: 7px; font-weight: 500; }
+.testmonial-block .designation::before { content: "/"; padding-right: 7px; }
+
+.star-rating { overflow: hidden; position: relative; font-weight: 400; margin: 0 auto 25px; }
+.star-rating .fa { font-size: 0.938rem; color: #c1c1c1; }
+.star-rating .checked { color: #ffd203; }
+.team-grid .details:after {   
+   background: url("../images/shadow-gradiant.png") center center/cover no-repeat; 
+} 
+.blog-post-info-detail a{
+    color: #fff;
+}
+.entry-meta a{
+    line-height : 1.3;
+}
+.dark .search-panel input[type="search"],
+.dark .sidebar.padding-left-30 .search-form input[type="text"], 
+.dark .site-footer .search-form input[type="text"]
+{
+    background: #22252a;
+    border: 1px solid #393b40;
+}
